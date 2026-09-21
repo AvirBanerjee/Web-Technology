@@ -38,5 +38,5 @@ Submit a short table summarizing your findings for all three websites.
 
 ## Submission Guidelines
 
-- Answers should be typed, not handwritten.
+- Answers should be handwritten.
 - Diagrams (Q2, Q9) may be hand-drawn and scanned, or created digitally.
