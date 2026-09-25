@@ -1,0 +1,50 @@
+body{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFBxcFN7_XgQ00o9cJcPZBeF1E2QzHyFR9ScnQ_D3Ixkm6GkzdP9YVYpjh&s=10);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #e80a0a;
+}
+.Card{
+    height: 380px;
+    width: 300px;
+    
+    margin-left: 450px;
+    margin-top: 100px;
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid black;
+    background-blend-mode: color;
+}
+img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 10px;
+
+}
+h1{
+    color:#1321db ;
+}
+h5{
+    font-style: italic;
+}
+input{
+    border-radius: 5px;
+    height: 20px;
+    border: none;
+    color: rgb(23, 24, 22);
+}
+button{
+    border-radius: 5px;
+    height: 25px;
+    width: 60px;
+    color: aliceblue;
+    background-color: rgb(208, 50, 195);
+    border: 2px solid black;
+}
+h4{
+    color: crimson;
+    font-size: 25px;
+    font-style: italic;
+}
