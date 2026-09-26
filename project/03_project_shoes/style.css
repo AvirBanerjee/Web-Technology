@@ -1,0 +1,39 @@
+body{
+    background-color: #3a3a3a;
+    height: 100vh;  
+}
+.card{
+    height: 350px;
+    width: 300px;
+    background-color: grey;
+    margin-left: 445px;
+    margin-top: 100px;
+    border: 3px solid #71f75f;
+    border-radius: 10px;
+}
+.wrraper{
+    height: 180px;
+    width: 140px;
+    background-color: #e7ebe6;
+    margin-left: 80px;
+    border-radius: 20px;
+    margin-top: 50px;
+    text-align: center;
+}
+img{
+    height: 108px;
+    width: 88px;
+    margin: 25px;
+}
+h1{
+    text-align: center;
+}
+button{
+    margin-left: 20px;
+    height: 40px;
+    width: 120px;
+    background-color: rgb(203, 197, 197);
+    color: #090b09;
+    font-style: italic;
+    border: 2px solid #71f75f;
+}
