@@ -1,0 +1,77 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    height: 100vh;
+    background-color: chocolate;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(bg.png);
+    background-position: center;
+}
+/* .container .bg{
+    height: 100%;
+    width: 100%;
+} */
+.card{
+    height: 480px;
+    width: 340px;
+    background-color: burlywood;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card img{
+    height: 240px;
+    width:85%;
+    object-fit: contain;
+}
+.card h1 {
+    text-align: center;
+    font-style: italic;
+    color: rgb(172, 99, 4);
+}
+.card p{
+    text-align: center;
+    font-size: 15px;
+}
+.card .price{
+    font-size: 25px;
+}
+.card form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.card .submit{
+    height: 40px;
+    width: 120px;
+    background-color: rgb(233, 138, 14);
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 60px;
+    margin-right: 20px;
+}
+.card .menu{
+    margin-bottom: 60px;
+    margin-left: 20px;
+    background-color: rgb(233, 138, 14);
+    height: 40px;
+    width:120px;
+    border: none;
+    border-radius: 8px;
+}
+.submit:hover{
+    border: 2px solid black;
+}
+.menu:hover{
+    border: 2px solid black;
+}
+
+
