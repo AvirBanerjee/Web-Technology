@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display</title>
+    <style>
+        .container{
+            /* display: none; */
+            /* visibility: hidden; */
+            display: flex;
+
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            align-items: center;
+            height: 350px;
+            width: 500px;
+            background-color: grey;
+            border: 5px dashed black;
+        }
+        .container2{
+            display: none;
+            /* visibility: hidden; */
+            height: 350px;
+            width: 500px;
+            background-color: grey;
+            border: 5px dashed black;
+        }
+        .el{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100px;
+            width: 100px;
+            background-color: brown;
+            border: 2px solid black;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="el">1</div>
+        <div class="el">2</div>
+        <div class="el">3</div>
+        <div class="el">4</div>
+        <div class="el">5</div>
+        <div class="el">6</div>
+        <div class="el">7</div>
+        <div class="el">8</div>
+        <div class="el">9</div>
+    </div>
+    <div class="container2">
+        Hero
+        <div class="el"></div>
+        <div class="el"></div>
+        <div class="el"></div>
+        <div class="el"></div>
+    </div>
+</body>
+</html>
