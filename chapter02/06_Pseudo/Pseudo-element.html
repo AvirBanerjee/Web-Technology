@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-element</title>
+    <style>
+        div::after{
+            content: "Heloo world< after";
+            color: blueviolet;
+            background-color: #1a1a1a;
+        }
+         div::before{
+            content: "Heloo world< Before";
+            color: blueviolet;
+            background-color: #1a1a1a;
+        }
+        p::first-letter{
+            font-style: italic;
+            font-size: 25px;
+        }
+        p::first-line{
+            font-style: oblique;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa inventore quisquam voluptates corporis, cupiditate expedita fuga totam modi harum dolorum doloribus nulla esse? Quae iusto explicabo dolor molestiae eos laboriosam harum vel, sit dolore voluptatum provident dignissimos deleniti, neque similique asperiores nobis </p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem error ipsa numquam ipsam voluptate facilis aut velit necessitatibus placeat maxime. Velit eum mollitia cum fugit debitis eaque minus quae rem aliquid nihil culpa quas beatae at tempora delectus cumque nesciunt voluptates ipsa deserunt voluptate natus voluptatem, animi non. Sapiente recusandae magni fugit harum quis veniam quas cum architecto maiores possimus.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem error ipsa numquam ipsam voluptate facilis aut velit necessitatibus placeat maxime. Velit eum mollitia cum fugit debitis eaque minus quae rem aliquid nihil culpa quas beatae at tempora delectus cumque nesciunt voluptates ipsa deserunt voluptate natus voluptatem, animi non. Sapiente recusandae magni fugit harum quis veniam quas cum architecto maiores possimus.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem error ipsa numquam ipsam voluptate facilis aut velit necessitatibus placeat maxime. Velit eum mollitia cum fugit debitis eaque minus quae rem aliquid nihil culpa quas beatae at tempora delectus cumque nesciunt voluptates ipsa deserunt voluptate natus voluptatem, animi non. Sapiente recusandae magni fugit harum quis veniam quas cum architecto maiores possimus.</p>
+    </div>
+</body>
+</html>

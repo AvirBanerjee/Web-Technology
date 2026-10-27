@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-class</title>
+    <style>
+        form{
+            height: 400px;
+            width: 350px;
+            background-color: #1a1a1a;
+            color: aliceblue;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+        }
+        #btn{
+            background-color: blue;
+            color: aliceblue;
+            transition:ease-in-out;
+        }
+        /* #btn:hover{
+            background-color: aliceblue;
+            color: black;
+            cursor:pointer;
+            height: 50px;
+            width: 120px;
+        } */
+        #btn:active{
+            background-color: aliceblue;
+            color: black;
+            cursor:pointer;
+            height: 50px;
+            width: 120px;
+        }
+        input:focus{
+            font-size: 20px;
+            background-color: #3a3a3a;
+        }
+        a:visited{
+            color: aliceblue;
+        }
+        h1:first-child{
+            color: chartreuse;
+            background-color: blue;
+        }
+        h1:nth-child(3){
+            background-color: brown;
+        }
+        input:disabled{
+            background-color: red;
+        }
+        input::placeholder{
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <form action="#">
+        <h1>Login Form</h1>
+        <label for="username">
+            <input type="text" placeholder="Username" >
+        </label>
+        <label for="Password">
+            <input type="password" placeholder="Password">
+        </label>
+        <input id="btn" type="submit" value="Login">
+        <a href="Sign up">Signup</a>
+    </form>
+    <div>
+        <h1>1</h1>
+        <h1>2</h1>
+        <h1>3</h1>
+        <h1>4</h1>
+    </div>
+</body>
+</html>
