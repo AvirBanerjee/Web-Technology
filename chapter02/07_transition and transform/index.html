@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transitions</title>
+    <style>
+        :root{
+            --primary-btn:red;
+            --sendory-color:blue
+        }
+        button{
+            background-color: var(--primary-btn);
+            color: #fff;
+            transition: background-color 0.5s ease-in-out 0.5s,border-radius 0.1s ease-in-out 0.5s;
+        }
+        button:hover{
+            background-color:  var(--sendory-color);
+            color: black;
+            border-radius: 10px;
+            cursor: pointer;
+            /* height: 30px; */
+        }
+        div{
+            height: 200px;
+            width: 180px;
+            background-color: blueviolet;
+            transition: transform 0.5s ease-in-out;
+
+
+        }
+        div:hover{
+            transform: rotate3d(1, 1, 1, 360deg);
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <input type="text" placeholder="Username">
+        <input type="password" placeholder="Passowrd">
+        <button>submit</button>
+    </form>
+    <div>
+        <!-- <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgMupaV8EAXC7IMWZLdVk4-qForgMifrg2Vkgg0GTlfg&s" alt=""> -->
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur inventore explicabo, vero dolorem veniam natus? Possimus nesciunt sit consequatur modi aut aliquid odit, atque dolorum quas repellat suscipit qui perspiciatis?
+    </div>
+</body>
+</html>

@@ -55,10 +55,38 @@
         input::placeholder{
             font-style: italic;
         }
-    </style>
+        button{
+            background-color: #3a3a3a;
+            color: #fff;
+        }
+        button:hover{
+            background-color: black;
+            height: 80px;
+            width: 140px;
+        }
+        p:first-child{
+            background-color: #3a3a3a;
+        }
+        li::before{
+            content: "-> ";
+
+        }
+        li::after{
+            content: "<- ";
+        }
+        /* p::first-letter{
+            font-style: italic;
+            font-size: 30px;
+        } */
+        .first-Lt{
+            font-style: italic;
+            font-size: 30px;
+            background-color: brown;
+        }
+    </style> 
 </head>
 <body>
-    <form action="#">
+    <!-- <form action="#">
         <h1>Login Form</h1>
         <label for="username">
             <input type="text" placeholder="Username" >
@@ -74,6 +102,18 @@
         <h1>2</h1>
         <h1>3</h1>
         <h1>4</h1>
+    </div> -->
+
+    <!-- <button>Login</button>
+    <input type="text" placeholder="Enter your name" > -->
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, doloremque.</p>
     </div>
+    <span>
+        <p><i class="first-Lt">L</i>orem ipsum dolor sit amet consectetur adipisicing elit. Numquam, doloremque.</p>
+    </span>
+     <ul>
+        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, doloremque.</li>
+     </ul>
 </body>
 </html>
