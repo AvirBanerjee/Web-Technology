@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESPONSIVE</title>
+    <style>
+        body{
+            background-color: #1a1a1a;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        .responsive{
+            height: 100px;
+            max-width: 1200px;
+            background-color: blueviolet;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        @media(max-width:600px){
+            .responsive{
+                background-color: rgb(82, 82, 184);
+                height: 40px;
+                width: 150px;
+            }
+        }
+        @media(min-width:1024px){
+            .responsive{
+                background-color: aqua;
+            }
+        }
+        @media(max-width:600px) and (min-width:400px){
+            .responsive{
+                background-color: yellow;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="responsive">
+        This div simulates any component in web view
+    </div>
+</body>
+</html>
