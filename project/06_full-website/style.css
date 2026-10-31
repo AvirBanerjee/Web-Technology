@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(https://assets.awwwards.com/awards/element/2026/10/6ac6757b5a2ba255872013.jpg);
+    background-size: contain;
+    height: 100vh;
+}
+header{
+    /* background-color: aqua; */
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    height: 80px;
+    width: 500px;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 50px;
+}
+ul{
+    height:75px;
+    color: orangered;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+.hero{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    /* background-color: black; */
+    justify-content: space-around;
+    align-items: center;
+}
+.img-hero{
+    height: 300px;
+    width: 450px;
+    background-color: aqua;
+}
+.description-hero{
+    height: 300px;
+    width: 450px;
+    background-color: brown;
+}
