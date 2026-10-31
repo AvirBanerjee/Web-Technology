@@ -41,10 +41,35 @@ ul{
 .img-hero{
     height: 300px;
     width: 450px;
-    background-color: aqua;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-hero img{
+    height: 280px;
+    width: 225px;
 }
 .description-hero{
     height: 300px;
     width: 450px;
-    background-color: brown;
+    /* background-color: brown; */
+    margin-right: 200px;
+}
+.description-hero p{
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    text-align: center;
+}
+.description-hero button{
+    height: 40px;
+    width: 120px;
+    background-color: rgb(221, 239, 117);
+    border-radius: 10px;
+    transition: border-radius 0.2 ease-in-out;
+    border: 2px solid black;
+}
+.description-hero button:hover{
+    border-radius:30px;
 }
